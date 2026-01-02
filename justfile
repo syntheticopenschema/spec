@@ -1,19 +1,17 @@
-poetry-install:
-    poetry -C src install
+install:
+    cd src && uv sync --all-extras
 
 pre-commit-install:
-    poetry -C src run -- pre-commit install
-
-install: poetry-install pre-commit-install
+    cd src && uv run pre-commit install
 
 pre-commit:
-    poetry -C src run -- pre-commit run --all-files -v
+    cd src && uv run pre-commit run --all-files -v
 
 test:
-    poetry -C src run -- ptw --ext=.py,.yml,.yaml,.ini examples src
+    cd src && uv run ptw --ext=.py,.yml,.yaml,.ini ../examples .
 
 ci-test:
-    cd src && poetry run -- pytest
+    cd src && uv run pytest
 
 dump:
-    poetry -C src run -- python scripts/dump_schemas.py > schemas/v1beta1.json
+    cd src && uv run python ../scripts/dump_schemas.py > ../schemas/v1beta1.json

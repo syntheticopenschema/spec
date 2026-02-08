@@ -1,12 +1,12 @@
 # Contributing to Synthetic Open Schema
 
-Welcome to the Synthetic Open Schema repository by Checks.dev! We appreciate your interest in contributing to this open-source project. This repository focuses on defining and evolving the schema used for synthetic monitoring checks.
+Welcome to the Synthetic Open Schema specification, stewarded by Ideatives Inc.! We appreciate your interest in contributing to this open-source project. This repository focuses on defining and evolving the schema used for synthetic monitoring checks.
 
 ## Ways to Contribute
 
 You can contribute to the Synthetic Open Schema project in several valuable ways:
 
-1. **Reporting Issues**: Help identify bugs, request clarifications, or suggest improvements to the schema by [creating an issue](https://github.com/checksdev/synthetic-open-schema/issues/new).
+1. **Reporting Issues**: Help identify bugs, request clarifications, or suggest improvements to the schema by [creating an issue](https://github.com/syntheticopenschema/spec/issues/new).
 
 2. **Submitting Pull Requests**: Contribute directly by proposing changes to the schema, adding new features, or refining existing definitions. Follow the guidelines below when submitting your pull requests.
 
@@ -97,6 +97,6 @@ Please review and adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) when parti
 
 ## Questions and Feedback
 
-If you have any questions, feedback, or encounter issues while contributing, please open a discussion in [GitHub Issues](https://github.com/checksdev/synthetic-open-schema/issues).
+If you have any questions, feedback, or encounter issues while contributing, please open a discussion in [GitHub Issues](https://github.com/syntheticopenschema/spec/issues).
 
 Thank you for contributing to the Synthetic Open Schema. Your contributions help improve the schema's usability and benefit the entire community of developers and monitoring enthusiasts!
